@@ -5,10 +5,11 @@
 \documentclass[english,a4paper, nologo, notitle]{myeuropasscv}
 \usepackage[english]{babel}
 \usepackage{enumitem}
+\usepackage[utf8]{inputenc}
 
 \ecvname{Stefano Vanin}
-\ecvaddress{Via Fabio Severo 40, 34126 Trieste, Trieste, Italy \\ 
-{\includegraphics[width=0.4cm]{address_europass_icon.pdf}}\hspace{0.2mm} {\fontseries{m}\selectfont Via Cristo Re 34/A, 30016 Jesolo, Venice, Italy}}
+\ecvaddress{Via Fabio Severo 40, 34126 Trieste, TS, Italy} %\\ 
+%{\includegraphics[width=0.4cm]{address_europass_icon.pdf}}\hspace{0.2mm} {\fontseries{m}\selectfont Via Cristo Re 34/A, 30016 Jesolo, Venice, Italy}}
 \ecvmobile{+39 3469479467}
 \ecvemail{s.vanin@outlook.it}
 \ecvlinkedinpage{https://www.linkedin.com/in/stefano-vanin/}
@@ -26,33 +27,29 @@
   
       \ecvsection{Professional Experience}
 
-  \ecvtitle{Wärtsilä Italia S.p.A.}{Systems Software Developer}
-  \ecvitem{2020.09 -- present \\ San Dorligo della Valle \\ (Trieste, Italy)}{Programming and integration of a collaborative robot in production lines.
-  
-  The asset is a KUKA KMR iiwa, which is a 7 degree of freedom manipulator installed on top of an autonomous guided vehicle.
-  }
-  % The main project I am working on is the automation of the kitting of some sub-assemblies of cylinder heads using a collaborative paradigm to achieve manufacturing excellence goals, in particular mapping the status of the process inside other manufactory softwares and improving working conditions.
-  
-  \ecvitem{Tasks}{Design of the processes and layouts, programming of the cobot and design of tools to be produced in additive manufacturing for project-related needs.
-  
-  Less frequently, I am also working on integration of devices considering digital and analog signals, power supply and fieldbus communication.
-  
-  Relevant trainings:
-  \begin{enumerate}[noitemsep, topsep=0pt]
-    \item Java (codewithmosh.com, Udemy);
-    \item KUKA Sunrise.OS programming 1 and 2 (KUKA Roboter, Grugliasco, Torino);
-    \item Siemens NX (CPI Eng, Internal).
-  \end{enumerate}}
+  \ecvtitle{Wärtsilä Italia S.p.A.}{Manufacturing Systems Software Developer}
+  \ecvitem{2020.09 -- present \\ San Dorligo della Valle \\ (Trieste, Italy)}{Concept development of collaborative robotics applications in our manufactory plant including:
+  \begin{itemize}[noitemsep, topsep=0pt]
+    \item Technoeconomical feasibility;
+    \item Design of processes and layout;
+    \item Programming of the process on the cobot, related servers and user interface;
+    \item Integration with currently used manufactorying software;
+    \item Programming of safety measures and related requirements;
+    \item Design of end effectors and supports;
+    \item Design and wiring of actuations and automation.
+  \end{itemize}
+
+  Development of an anti-collision system for an AGV in Wärtstila DCT based on a 3D camera.
+}
   
   \ecvtitle{Wärtsilä Italia S.p.A.}{Marine Engineering Trainee}
   \ecvitem{2019.08 -- 2020.07 \\ San Dorligo della Valle \\ (Trieste, Italy)}{
-    Development and application of data driven methods for the concept development of vessels' engine rooms.}
-  
-	\ecvitem{Tasks}{Design of engine room arrangements focused on 2 and 4-strokes marine engines, gearboxes, power
+    Development and application of data driven methods for the concept development of vessels' engine rooms.
+    Design of engine room arrangements focused on 2 and 4-strokes marine engines, gearboxes, power
     transformers, shaft generators, fuel cells and energy storage systems.
     
     Preparation of appealing value propositions of the solution, tailored on the most important
-    	indicators for the specific customer.
+    	indicators for the specific customer such as carbon/ghg emission, fuel consumption, OpEx and CapEx.
       
       Relevant projects:
       \begin{enumerate}[noitemsep, topsep=0pt]
@@ -65,28 +62,29 @@
   \ecvsection{Studies}
   
   \ecvtitlelevel{Master Degree}{Mechanical Engineering}{LM-33}
+  \ecvtitlelevel{}{Energy and environmental sustainability}{}
   \ecvitem{\textcolor{ecvsectioncolor}{Università degli Studi di Trieste}
   
 2017.09 -- 2020.04}{\mbox{Thesis: "Data driven design of low emission machinery configurations for bulk carriers compliant} with IMO 2050 Strategy"
 
-  	Relator: Prof. Rodolfo Taccani, Professor of Fluid Machines at Università degli Studi di Trieste
+  	Relator: Prof. Rodolfo Taccani, Fluid Machines, Università degli Studi di Trieste
 
-Correlator: Andrea Zotti, Wärtsilä Marine Engineering Director
+Correlator: Andrea Zotti, Marine Engineering Director, Wärtsilä Italia S.p.A.
 
 110/110}
-  \newpage
   \ecvtitlelevel{Bachelor Degree}{Industrial Engineering}{L-9}
+  \ecvtitlelevel{}{Mechanics}{}
   \ecvitem{\textcolor{ecvsectioncolor}{Università degli Studi di Trieste}
   
 2014.09 -- 2017.10}{Thesis: "Potenziamento umano tramite muscoli artificiali pneumatici"
 
 English translation: "Human augmentation using Pneumatic Artificial Muscles (PAM)"
 
-Relator: Prof. Sabrina Pricl,
-
-Professor of Principles of Chemical Engineering at Università degli Studi di Trieste
+Relator: Prof. Sabrina Pricl, Chemical Engineering, Università degli Studi di Trieste
 
 104/110}
+
+\newpage
   
   \ecvtitle{High School}{Liceo Scientifico}
   \ecvitem{\textcolor{ecvsectioncolor}{Liceo Scientifico Galileo Galilei}
@@ -108,7 +106,7 @@ English translation: "Analysis of the phenomena to which a motorbike is subjecte
 Summers from 2012 to 2016
 
 Jesolo (Venice, Italy)
-}{Welcome customers, cleaning and maintenance of the beach facilities.}
+}{Welcome customers and maintenance of the beach facilities.}
 
 
 \ecvitem{\textcolor{ecvsectioncolor}{Assembly of doors and windows}
@@ -118,14 +116,13 @@ Jesolo (Venice, Italy)
 	2011.06 -- 2011.08
 	
 	Jesolo (Venice, Italy)
-}{Quality control of the entering materials, cleaning and reorder of the warehouse, assembly
-of simple components, supporting colleagues on more complex asssemblies and externally
-during on-site assemblies.}
+}{Quality control of the entering materials, reorder of the warehouse, assembly
+of simple components, supporting colleagues during on-site assemblies.}
 
   
   \ecvsection{Skills}
   
-  \ecvblueitem{Technical skills}{
+  \ecvblueitem{Technical skills from education}{
   % During my trainee I have been having the opportunity to improve one of my interest which is
   % that of coding. I have been daily writing procedural instruction using Python under Jupyter environment,
   % and developing functional and object oriented programming features on repositories
@@ -134,28 +131,38 @@ during on-site assemblies.}
   % observing their high-level methodologies. Also, I have acquired some experience in the maritime industry, in particular on the field of the
   % power supply and distribution.
   	
-  My skills deriving from Universitary studies relate to the sizing of mechanical devices, plants and piping with a
-  focus on optimization. I have made several projects using MATLAB, EES,
-  ModeFRONTIER, ANSYS CFX, ANSYS Fluent, SolidWorks and Simulation. Each of these
-  projects required a report of the results and therefore I have some experience with the markups
-  of \LaTeX{} and TiKz.
-
-  At the moment I feel more comfortable using Siemens CAD environment.
+  The main topic of my Universitary studies is that of sizing energy conversion plant; in particular, the main technologies considered were steam and turbogas turbines, reciprocating internal combustion engines and heat recovery.
+  Considerable attention was adressed to renewable energy sources and their specific implementations and requirements (ORC, storage systems).
+  }
+  %During those 5 years I have made several projects using (mainly) MATLAB, EES,
+  %ModeFRONTIER, ANSYS CFX, ANSYS Fluent and SolidWorks. Each of these
+  %projects required a report of the results and therefore I have some experience with the markups
+  %of \LaTeX{} and TiKz.}
+  \ecvblueitem{Technical skills from working experiences}{The typical task during my trainee was that of fetching historic data from vessels in order to find patterns in routes and operations
+  so that it was possible to design the best engine room arrangement and run the simulations against the current configuration and competitor ones.
+  %This \texttt{data driven design} flow allowed me to learn \texttt{python} programming.
+  During this year I could improve my knowledge on the energy conversion on board of vessels and in particular I had the opportunity to gain a good knowledge of Wärtsilä portfolio.
   
-  Lately, I have been practicing programming and for the moment I have my routine consisting of Python managed using Conda environment and Java built using Maven. The versioning of my projects is done using GIT, hosted on GitHub or Bitbucket.}
+  In the successive scholarship I could dig deeper into the knowledge of Wärtsilä products by seeing some of the mechanical processes behind various components.
+  }
+
+  \ecvitem{Programming}{\texttt{python 3}, \texttt{java}, \texttt{git} (bitbucket, gitlab, github, lfs), databases (Oracle, PostgreSQL, MongoDB, SQLite), \texttt{UDP} and \texttt{TCP/IP}, \texttt{REST API}.
+    }
+
+  \ecvitem{System integration}{KUKA Sunrise environment, Beckhoff EtherCAT, MQTT, PLC programming (FBD and LAD), Siemens TIA Portal, safety standards. Wiring of PLC based systems (digital IOs, power supply, relays, electrovalves, DC motors).
+  }
+  \ecvitem{Mechanical design}{Siemens NX}
   
   \ecvblueitem{Soft skills}{
   I am creative and curious, I like to learn new things and I appreciate being in a technologically
-  driven context where expanding the knowledge is a shared target.
+  driven context where expanding the knowledge is a shared target, therefore I am happy to work in a stimulating team where I am keen to listen and share my opinions.
   
-  In my limited work experience, I found out that I enjoy relating with colleagues and customers
-  and I am happy to work in a social stimulating group where I am keen to listen and partecipate
-  when something smart crosses my mind.
-  
+  I enjoy relating with colleagues and customers in a friendly manner, and at the same time I am improving on negotiation and conveying messages.
+
   I am optimistic but at the same time realistic, recognizing where there is a limit and committing
   to reach it.  
   
-  I love sport, in particular basketball and racing. I would say that playing basketball during high school helped make me an hard
+  I love sport, in particular basketball and racing. I would say that playing basketball during high school has contributed to make me an hard
   worker who strives to achieve results.}
 
   \ecvblueitem{Languages}{Mother tongue Italian, fluent English}
